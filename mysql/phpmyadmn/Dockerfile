@@ -8,8 +8,6 @@ ENV PMA_PASSWORD=mypassword
 # Expose the phpmyadmin port
 EXPOSE 80
 
-# Create a volume for phpMyAdmin data
-VOLUME /var/lib/phpmyadmin
 
 # Placeholder for setting the hostname at runtime
 # CMD ["sh", "-c", "echo 'phpmyadmin.mydomain.com' > /etc/hostname && exec apache2-foreground"]

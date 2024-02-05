@@ -11,6 +11,3 @@ ENV MONGO_INITDB_DATABASE=mydatabase
 
 # Copy the initialization script to the container
 COPY init.js /docker-entrypoint-initdb.d/
-
-# Create a data directory for MongoDB
-VOLUME /data
