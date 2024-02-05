@@ -4,6 +4,8 @@ docker compose up
 -Make port number 9042 as public.
 
 Step-2: Open a new terminal and run the below command in it.
+cd cassandra
+pip install -r requirements.txt
 python main.py
 -Enter a keyspace and table name of your choice.
 -Then your CREATE TABLE and COPY queries are generated.
